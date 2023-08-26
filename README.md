@@ -27,8 +27,7 @@ Install following libraries by running following code in your terminal :
 4)Run the code
 
 ## 📱Screenshots
-![image 1](https://user-images.githubusercontent.com/111555972/216401035-0a0b97ba-e3dd-4e6b-a8cc-9b44762181b9.png)
+![4](https://github.com/Dhruv-Sapra/Automatic_attendance/assets/111555972/c19673d4-7dd8-4ab8-806a-4ce3a9fba749)
 
-![WhatsApp Image 2023-02-02 at 23 03 01](https://user-images.githubusercontent.com/111555972/216400905-0cb63b36-e324-4093-bde0-1d76127ccc18.jpeg)
+![3](https://github.com/Dhruv-Sapra/Automatic_attendance/assets/111555972/b8ffac8b-8cba-431f-a581-6fd73ccd9a39)
 
-![WhatsApp Image 2023-02-02 at 23 03 01 (1)](https://user-images.githubusercontent.com/111555972/216400813-3df1e750-8140-4b11-abba-ab6885c88bbf.jpeg)
