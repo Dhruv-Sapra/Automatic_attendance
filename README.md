@@ -18,9 +18,13 @@ Install following libraries by running following code in your terminal :
 2) Numpy            :- pip install numpy
 3) Opencv           :- pip install opencv-python
 4) Face Recognition :- pip install face_recognition
+5) Virtual environment :-pip install virtualenv
 
 ## 💻Usage
-Clone this repository and run the code using any IDE.
+1)Clone this repository.
+2)Install relevant dependancies mentioned above or use the faceenv virtual environment provided in this repo.
+3)to use venv open the terminal in project folder ,cd faceenv, run ./Scripts/activate.
+4)Run the code
 
 ## 📱Screenshots
 ![image 1](https://user-images.githubusercontent.com/111555972/216401035-0a0b97ba-e3dd-4e6b-a8cc-9b44762181b9.png)
