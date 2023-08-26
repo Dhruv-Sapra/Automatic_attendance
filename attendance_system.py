@@ -5,7 +5,6 @@ import csv
 from datetime import datetime
 
 video_capture = cv2.VideoCapture(0)
-
 #Load Known Faces
 harry_image = face_recognition.load_image_file("faces/harry.jpg")
 harry_encoding = face_recognition.face_encodings(harry_image)[0]
