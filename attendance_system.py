@@ -5,15 +5,16 @@ import csv
 from datetime import datetime
 
 video_capture = cv2.VideoCapture(0)
+
 #Load Known Faces
-harry_image = face_recognition.load_image_file("faces/harry.jpg")
-harry_encoding = face_recognition.face_encodings(harry_image)[0]
+musk_image = face_recognition.load_image_file("faces/musk_1.jpg")
+musk_encoding = face_recognition.face_encodings(musk_image)[0]
 
-rohan_image = face_recognition.load_image_file("faces/rohan.jpg")
-rohan_encoding = face_recognition.face_encodings(rohan_image)[0]
+my_image = face_recognition.load_image_file("faces/me.jpeg")
+my_encoding = face_recognition.face_encodings(my_image)[0]
 
-known_face_encodings = [harry_encoding,rohan_encoding]
-known_face_names = ["Harry","Rohan"]
+known_face_encodings = [musk_encoding,my_encoding]
+known_face_names = ["Musk","Me"]
 
 #List of expected students
 students = known_face_names.copy()
@@ -34,7 +35,7 @@ while True:
     rgb_small_frame = cv2.cvtColor(small_frame, cv2.COLOR_BGR2RGB)
 
     #Recognize faces
-    face_locations = face_recognition.face_location(rgb_small_frame)
+    face_locations = face_recognition.face_locations(rgb_small_frame)
     face_encodings = face_recognition.face_encodings(rgb_small_frame , face_locations)
 
     for face_encoding in face_encodings:
